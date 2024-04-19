@@ -42,8 +42,7 @@ alias rmf="rm -rf"
 # Fyma aliases
 export FYMA_PATH="~/code/fyma"
 
-alias fca="cd $FYMA_PATH/core-api-v2"
-alias fba="cd $FYMA_PATH/browser-app-v2"
+alias fmo="cd $FYMA_PATH/monorepo"
 alias fk8s="cd $FYMA_PATH/k8s"
 alias fk="cd $FYMA_PATH/k8s"
 
@@ -62,3 +61,4 @@ alias sa="cd $SS_PATH/app"
 
 alias gst="git status"
 alias gco="git checkout"
+alias glo="git log --oneline --decorate --all --graph"
