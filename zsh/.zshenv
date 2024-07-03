@@ -23,3 +23,7 @@ typeset -aU path
 
 export EDITOR='nvim'
 export GIT_EDITOR='nvim'
+
+export KUBECONFIG=~/.kube/config
+
+export AWS_PROFILE=default

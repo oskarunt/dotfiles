@@ -8,6 +8,7 @@ if OS.mac?
 
     brew "noti" # utility to display notifications from scripts
     brew "trash" # rm, but put in the trash rather than completely delete
+    brew "nowplaying-cli" # display now playing song in the menu bar
 
     # Applications
     cask "kitty" # a better terminal emulator
@@ -68,3 +69,7 @@ brew "z" # switch between most used directories
 brew "zoxide" # switch between most used directories
 brew "zsh" # zsh (latest)
 brew "pkgxdev/made/pkgx" # npx, but for anything
+brew "pngpaste" # paste images into files (obsidian)
+brew "miller" # csv processor
+brew "helmfile" # helmfile
+brew "vercel-cli" # vercel cli

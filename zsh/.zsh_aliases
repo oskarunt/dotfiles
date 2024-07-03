@@ -42,8 +42,8 @@ alias lld="ls -l | grep ^d"
 alias rmf="rm -rf"
 
 # git aliases
-alias gs='git s'
-alias glog="git l"
+alias gst='git s'
+alias glo="git l"
 
 # tmux aliases
 alias ta='tmux attach'
@@ -59,3 +59,6 @@ if [[ -n "$(command -v nvim)" ]]; then
     # immediately open to fugitive's status screen
     alias vimg="nvim +Ge:"
 fi
+
+# awsp
+alias awsp="source _awsp"
