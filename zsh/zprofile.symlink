@@ -12,3 +12,6 @@ elif [[ -d /home/linuxbrew/.linuxbrew ]]; then
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
+
+# Created by `pipx` on 2024-04-23 10:17:31
+export PATH="$PATH:/Users/oskarunt/.local/bin"

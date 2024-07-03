@@ -62,3 +62,5 @@ alias sa="cd $SS_PATH/app"
 alias gst="git status"
 alias gco="git checkout"
 alias glo="git log --oneline --decorate --all --graph"
+
+alias awsp="source _awsp"

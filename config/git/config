@@ -175,3 +175,6 @@
 [rebase]
     instructionFormat = "[%an - %ar] %s"
     autoStash = true
+[user]
+	name = Oskar Unt
+	email = unt.oskar@gmail.com
