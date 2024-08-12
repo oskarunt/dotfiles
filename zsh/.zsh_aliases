@@ -44,6 +44,7 @@ alias rmf="rm -rf"
 # git aliases
 alias gst='git s'
 alias glo="git l"
+alias gco="git checkout"
 
 # tmux aliases
 alias ta='tmux attach'

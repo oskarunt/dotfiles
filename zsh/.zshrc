@@ -170,3 +170,10 @@ if [ -f '/Users/oskarunt/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/
 
 # sst
 export PATH=/Users/oskarunt/.sst/bin:$PATH
+# pnpm
+export PNPM_HOME="/Users/oskarunt/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
