@@ -12,3 +12,7 @@ elif [[ -d /home/linuxbrew/.linuxbrew ]]; then
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
+
+# Added by OrbStack: command-line tools and integration
+# Comment this line if you don't want it to be added again.
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
